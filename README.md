@@ -70,6 +70,7 @@ In general, it can be expected that longer routes with a higher rate of usage re
 
 #### Transit Deserts
 ![ridership](assets/graphs/ridership_comparision.png)
+![map](assets/graphs/violations_map.png)
 There seems to be a pattern between the paths the routes with a significant difference between ridership rankings and violation rankings take. Using our earlier examples of the B46+, Bx36, and B82, they all run in a direction and area where there are no other public transport options (most notably the Subway). From this, we may form a relation between a lack of public transport infrastructure and the number of violations detected amongst ACE bus paths.
 
 ### Conclusions & Moving Forward
