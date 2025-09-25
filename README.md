@@ -81,7 +81,7 @@ The ACE system, in tandem with serving its intended purpose, provides valuable d
 ----
 A video to how the site works, and every feature that is stable and available so far is listed below!
 
-[![https://i.sstatic.net/Vp2cE.png](assets/graphs/thumbnailpng)](https://youtu.be/j0neJlknBQw)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j0neJlknBQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
