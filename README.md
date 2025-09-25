@@ -81,7 +81,7 @@ The ACE system, in tandem with serving its intended purpose, provides valuable d
 ----
 A video to how the site works, and every feature that is stable and available so far is listed below!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/j0neJlknBQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![demo](https://github.com/MHC-Datathon/Data-Lions/blob/e94380f3ad488123e76c0ac73dcbec8820489ce4/assets/graphs/thumbnail.png)](https://www.youtube.com/embed/j0neJlknBQw)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
