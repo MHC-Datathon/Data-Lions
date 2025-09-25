@@ -80,7 +80,8 @@ The ACE system, in tandem with serving its intended purpose, provides valuable d
 ## Demo
 ----
 A video to how the site works, and every feature that is stable and available so far is listed below!
-[![Demo Link](assets/graphs/thumbnailpng)](https://youtu.be/j0neJlknBQw)
+
+[![https://i.sstatic.net/Vp2cE.png](assets/graphs/thumbnailpng)](https://youtu.be/j0neJlknBQw)
 
 <p align="right"><a href="#readme-top">Back to top</a></p>
 
