@@ -38,7 +38,7 @@
 
 ## Introduction
 ----
-TBD
+By comparing ridership data and violation data, our project seeks to show that beyond giving out violations as an incentive to not clog bus stops, the ACE is also a useful tool for data collection in regards to areas of improvement for the New York City public transit network.
 
 And special thanks to [NYC Open Data][NYC Open Data-url] for providing the datasets we used in this datathon! 
 
@@ -60,8 +60,6 @@ Our team members and their contact information are listed below:
 ### Background
 #### ACE 
 The ACE program is a bus-mounted camera system that issues violations to vehicles occupying bus lanes, to double parked vehicles along bus routes, and to vehicles blocking bus stops. The goal of the system is to make bus service faster and more reliable by keeping bus lanes and bus stops clear.
-#### Our Project
-By comparing ridership data and violation data, our project seeks to show that beyond giving out violations as an incentive to not clog bus stops, the ACE is also a useful tool for data collection in regards to areas of improvement for the New York City public transit network.
 
 ### ACE Ridership and Violations
 ![ace_ridership](https://github.com/drod75/MTA-MHC-Datatahon/blob/main/assets/images/ace_ridership.png)
