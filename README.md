@@ -20,7 +20,7 @@
             <li><a href="#ace-route-analysis">Ace Route Analysis</a></li>
             <li><a href="#ridership-analysis">Ridership Analysis</a></li>
             <li><a href="#transit-deserts">Transit Deserts</a></li>
-            <li><a>href="#conclusions--moving-forward">Conclusions & Moving Forward</a></li>
+            <li><a href="#conclusions--moving-forward">Conclusions & Moving Forward</a></li>
         </ul>
     </li>
     <li><a href="#demo">Demo</a></li>
