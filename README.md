@@ -62,16 +62,19 @@ Our team members and their contact information are listed below:
 The ACE program is a bus-mounted camera system that issues violations to vehicles occupying bus lanes, to double parked vehicles along bus routes, and to vehicles blocking bus stops. The goal of the system is to make bus service faster and more reliable by keeping bus lanes and bus stops clear.
 
 ### ACE Ridership and Violations
-![ace_borough](https://github.com/drod75/MTA-MHC-Datatahon/blob/main/assets/images/borough_violations.png)
-![ace_ridership](https://github.com/drod75/MTA-MHC-Datatahon/blob/main/assets/images/ace_ridership.png)
-![ace_violations](https://github.com/drod75/MTA-MHC-Datatahon/blob/main/assets/images/bus_violations.png)
+![ace_borough]('assets/graphs/borough_violations.png')
+![ace_ridership]('assets/graphs/ace_ridership.png')
+![ace_violations]('assets/graphs/bus_violations.png')
 
 In general, it can be expected that longer routes with a higher rate of usage report a higher number of violations, as shown in the number of violations per borough, which show the Bronx, Manhattan, and Brooklyn with the highest number of violations, consistent with the three boroughs with the most ACE mounted bus routes. Individual examples include the M15+, which ranked first in both ridership and violations, and the M101 route, which ranked fourth in ridership and third in violations. However, there are notable outliers, like the B46+ (sixteenth in ridership yet sixth in ridership), the Bx36 (twelfth in ridership and fifth in violations), and the B82+ (twenty-fifth in ridership but twelfth in violations).
 
 #### Transit Deserts
+![ridership]('assets/graphs/ridership_comparision.png')
 There seems to be a pattern between the paths the routes with a significant difference between ridership rankings and violation rankings take. Using our earlier examples of the B46+, Bx36, and B82, they all run in a direction and area where there are no other public transport options (most notably the Subway). From this, we may form a relation between a lack of public transport infrastructure and the number of violations detected amongst ACE bus paths.
 
 ### Conclusions & Moving Forward
+<iframe rc="https://github.com/MHC-Datathon/Data-Lions/blob/main/assets/graphs/nta_treemap.html" height="300 width="300 title="Violations per NTA">
+</iframe>
 The ACE system, in tandem with serving its intended purpose, provides valuable data on what places need better infrastructure for people to get around, exposing transit deserts along the routes with higher nummbers of violations. That in itself shows the merit in expanding ACE to more bus routes for a more comprehensive understanding of our public transit network. At the same time, investment should be placed into transit deserts as highlighted by ACE data, so as to curb the nnumber of violations in the future. There is room for a win-win scenario, for both residents of the area and the MTA, where ACE allows citizens use of a more convenient and stable form public transport, while the MTA can benefit from the income of an expanded network.
 
 ## Demo
