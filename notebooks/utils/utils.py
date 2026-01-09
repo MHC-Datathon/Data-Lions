@@ -1,4 +1,6 @@
 import urllib.parse
+import pandas as pd
+from typing import Literal
 
 
 class SOQL_Querying:
@@ -21,7 +23,8 @@ class SOQL_Querying:
         """
         self.routes_url = "https://data.ny.gov/resource/ki2b-sg5y.csv"
         self.violations_url = "https://data.ny.gov/resource/kh8p-hcbm.csv"
-        self.ridership_url = "https://data.ny.gov/resource/vxuj-8kew.csv"
+        self.ridership_url = "https://data.ny.gov/resource/kv7t-n8in.csv"
+        self.ridership_2025_url = "https://data.ny.gov/resource/gxb3-akrn.csv"
 
     def clean(self, query: str):
         """
@@ -43,14 +46,18 @@ class SOQL_Querying:
 
         return parsed_query
 
-    def query(self, api: str, query: str):
+    def query(
+        self,
+        api: Literal["routes", "violations", "ridership", "ridership-2025"],
+        query: str,
+    ):
         """
         Construct a full API request URL based on the selected dataset.
 
         Parameters
         ----------
         api : str
-            The identifier for the target dataset ('routes', 'violations', or 'ridership').
+            The identifier for the target dataset ('routes', 'violations', 'ridership', or 'ridership-2025').
         query : str
             The SOQL query logic to be appended to the URL.
 
@@ -70,3 +77,12 @@ class SOQL_Querying:
             return self.ridership_url + prefix + encoded_query
         else:
             print("INVALID API SELECTED!")
+
+    def pipeline(
+        self,
+        api: Literal["routes", "violations", "ridership", "ridership-2025"],
+        query: str,
+    ):
+        response = self.query(api=api, query=query)
+        df = pd.read_csv(response)  # type: ignore
+        return df
