@@ -75,6 +75,8 @@ class SOQL_Querying:
             return self.violations_url + prefix + encoded_query
         if choice == "ridership":
             return self.ridership_url + prefix + encoded_query
+        if choice == "ridership-2025":
+            return self.ridership_2025_url + prefix + encoded_query
         else:
             print("INVALID API SELECTED!")
 

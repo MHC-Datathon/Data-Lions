@@ -5,6 +5,7 @@ description = "The repository for the MTA Macaulay Honors College Datathon!"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "duckdb>=1.4.3",
     "folium>=0.20.0",
     "geopandas>=1.1.1",
     "jupyterlab>=4.5.1",
