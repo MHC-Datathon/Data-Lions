@@ -124,9 +124,11 @@
         display: flex;
         gap: 10px;
         align-items: center;
-        margin-bottom: 10px;
+        margin-bottom: 10px;`
     }
 </style>
+
+<title>Data-Lions Submission</title>
 
 <div align="center">
   <h1>MTA Macaulay Honors College Datathon</h1>
